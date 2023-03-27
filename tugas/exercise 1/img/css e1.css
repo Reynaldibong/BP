@@ -1,0 +1,154 @@
+@charset "utf-8";
+* {
+  scroll-behavior: smooth;
+}
+body {
+  /* background-image: url("./wp11494575-born-pink-wallpapers.jpg"); */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  background-image: url(./392.jpg);
+  width: 100%;
+  margin: 0;
+}
+#menu {
+  height: 40px;
+  display: flex;
+  background-color: rgb(215, 191, 195);
+}
+#menu audio {
+  padding: 10px;
+  padding-top: 50px;
+  padding-left: 1000px;
+}
+#menu div {
+  max-width: 100px;
+  min-width: 99px;
+  height: 100%;
+  font-size: 17px;
+}
+#menu div a {
+  width: 100%;
+  height: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menu div:hover {
+  background-color: rgb(63, 55, 55);
+}
+#menu div a:hover {
+  color: pink;
+}
+
+.about {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(254, 188, 189);
+  border: double black;
+}
+.member {
+  height: 670px;
+  width: auto;
+  background-color: rgb(254, 188, 189);
+  padding-top: 20px;
+  border: dotted 5px white;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.ab {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+#rose img {
+  height: 400px;
+  width: 400px;
+  border: dotted 5px white;
+}
+#jisoo img {
+  height: 400px;
+  width: 400px;
+  border: dotted 5px white;
+}
+#lisa img {
+  height: 400px;
+  width: 400px;
+  border: dotted 5px white;
+}
+#jennie img {
+  height: 400px;
+  width: 400px;
+  border: dotted 5px white;
+}
+
+#form {
+  width: 70%;
+  height: auto;
+  margin: 15px 0;
+  padding: 20px;
+  display: inline-block;
+  border: 15px double rgb(0, 0, 0);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgb(219, 214, 224);
+}
+#form p {
+  text-align: left;
+  padding-left: 40px;
+}
+#form input {
+  width: 90%;
+  background-color: #cac0c0;
+  color: white;
+  height: 20px;
+  padding: 20px;
+  margin: 0px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+#country {
+  width: 93.2%;
+  background-color: #cac0c0;
+  color: white;
+  height: 60px;
+  padding: 20px;
+  margin: 0px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+#form button {
+  padding: 10px;
+  width: 93%;
+  background-color: pink;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#form button:hover {
+  background-color: black;
+  color: pink;
+}
+
+#map {
+  border-radius: 80px;
+  padding: 30px;
+}
+
+/* .navbar {
+  display: flex;
+  max-width: 40px;
+  justify-content: space-evenly;
+  color: rgb(0, 0, 0);
+  align-items: center;
+} */
+
+/* p:hover {
+  background-color: beige;
+} */ ;
